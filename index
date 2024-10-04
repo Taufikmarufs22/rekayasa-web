@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sultan nya jaket keren</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background-color: darkslategray;
+    color: thistle;
+      padding: 50px 0;
+    }
+    .gallery-item {
+      margin-bottom: 30px;
+    }
+    .gallery-item img {
+      height: 250px; /* Atur tinggi gambar */
+      object-fit: cover; /* Gambar akan disesuaikan tanpa distorsi */
+      width: 100%; /* Gambar menyesuaikan dengan lebar kolom */
+    }
+    .footer {
+      background-color: aqua;
+      padding: 20px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+    .price-tag {
+      color: midnightblue;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">JAKET COLLECTOR</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container-fluid hero-section text-center">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 my-auto">
+      <h1>JAKET KEREN UNTUK MENEMANI ANDA DI SEGALA CUACA</h1>
+      <p>Pilihan jaket terbaik untuk hangat dan gaya. Temukan jaket yang sesuai dengan kepribadianmu</p>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <img src="img/logo.png" class="img-fluid" alt="ALL JACKET">
+    </div>
+  </div>
+</div>
+
+<!-- Gallery Section -->
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+      <img src="img/bomber.jpg" class="img-fluid" alt="jaket 1">
+      <h5 class="mt-2">Jaket bomber</h5>
+      <p class="price-tag">Rp 200.000</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+      <img src="img/denim.webp" class="img-fluid" alt="jaket 2">
+      <h5 class="mt-2">Jaket Denim</h5>
+      <p class="price-tag">Rp 110.000</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+      <img src="img/harington.jpg" class="img-fluid" alt="jaket 3">
+      <h5 class="mt-2">Jaket Harington</h5>
+      <p class="price-tag">Rp 130.000</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+      <img src="img/hoodie.jpg" class="img-fluid" alt="jaket 4">
+      <h5 class="mt-2">Jaket Hoodie</h5>
+      <p class="price-tag">Rp 50.000</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+      <img src="img/jaketwork.jpg" class="img-fluid" alt="jaket 5">
+      <h5 class="mt-2">Jaketwork</h5>
+      <p class="price-tag">Rp 81.000</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 gallery-item">
+      <img src="img/var.jpg" class="img-fluid" alt="jaket 6">
+      <h5 class="mt-2">Jaket Varsity</h5>
+      <p class="price-tag">Rp 78.000</p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>Contact us: IG.infoJAKETjakarta | Phone: 087724717734</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
